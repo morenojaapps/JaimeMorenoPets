@@ -139,14 +139,70 @@
             <div class="section-start-3">
               <div class="section-container-3">
                 <div class="row">
-                  <div class="col-sm">
-                    <a href="#"><img src="img/texto-3.png" alt=""></a>
-                  </div>
-                  <div class="col-sm">
+                  <div class="col-sm section-container-3-imagen">
                     <img src="img/video-gallery.jpg" alt="">
+                  </div>
+                  <div class="col-sm section-container-3-texto animate-section-3">
+                    <a href="#"><img src="img/texto-3.png" alt=""></a>
                   </div>
                 </div>
               </div>
+            </div>
+            <br><br><br><br>
+            <hr>
+            <div class="section-container-4" >
+              <div class="section-container-4-texto animate-section-4">
+                <img src="img/texto-4.png" alt="">
+              </div>
+            </div>
+            <div class="container">
+            <div class="card-deck mb-3 text-center">
+              <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>10 users included</li>
+                    <li>2 GB of storage</li>
+                    <li>Email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                </div>
+              </div>
+              <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>20 users included</li>
+                    <li>10 GB of storage</li>
+                    <li>Priority email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                </div>
+              </div>
+              <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>30 users included</li>
+                    <li>15 GB of storage</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                </div>
+              </div>
+            </div>
             </div>
       </section>
       <script src="js/jquery.waypoints.min.js"></script>

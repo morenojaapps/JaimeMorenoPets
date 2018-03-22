@@ -262,7 +262,7 @@ section div div.section-container-2 {
  margin: 130px auto;
 }
 section div div.section-container-2 img{
- height: 400px;
+ height: 300px;
  margin-top: 100px;
  width: 80%;
 }
@@ -300,7 +300,22 @@ section div .col{
   margin-left: 100px;
 }
 
+div.section-container-3-texto a img {
+  width: 60%;
+  height: 200px;
+  margin-left: 20%;
+  margin-top: 50px;
+}
 
+div.section-container-4{
+  height: 300px;
+}
+div.section-container-4 div img{
+  margin-top: 50px;
+  width: 30%;
+  margin-left: 35%;
+  height: 200px;
+}
 
 
 

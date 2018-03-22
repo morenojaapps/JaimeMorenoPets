@@ -33,3 +33,19 @@ $('.animate-section-2').waypoint(function(){
 },{
   offset: '50%'
 });
+
+$('.animate-section-3').css('visibility', 'hidden');
+$('.animate-section-3').waypoint(function(){
+  $('.animate-section-3').css('visibility', 'visible');
+  $('.animate-section-3').css('animation','zoomInRight 1.5s');
+},{
+  offset: '60%'
+});
+
+$('.animate-section-4').css('visibility', 'hidden');
+$('.animate-section-4').waypoint(function(){
+  $('.animate-section-4').css('visibility', 'visible');
+  $('.animate-section-4').css('animation','zoomInUp 1.5s');
+},{
+  offset: '80%'
+});
