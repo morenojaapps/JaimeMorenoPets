@@ -98,7 +98,9 @@
           </div>
         </div>
         <br><br><br><br>
-        <hr>
+        <br><br><br><br>
+      </section>
+        <section>
           <div class="section-start-2  ">
             <div class="section-container-2" >
               <div class="row">
@@ -106,7 +108,7 @@
                   <a href="#"><img src="img/texto-2.png" alt=""></a>
                 </div>
                 <div class="col-sm container-2-col-2">
-                  <div class="content-gallery">
+                  <div class="content-gallery-2">
                     <div class="row">
                       <div class="col">
                         <img src="img/imagen-gallery-1" alt="" class="rounded-circle">
@@ -134,13 +136,32 @@
                 </div>
               </div>
             </div>
-            <br><br><br><br>
-            <hr>
+            </section>
+            <section>
             <div class="section-start-3">
               <div class="section-container-3">
                 <div class="row">
-                  <div class="col-sm section-container-3-imagen">
-                    <img src="img/video-gallery.jpg" alt="">
+                  <div class="col-sm section-container-3-video">
+                    <div class="content-gallery-3">
+                      <div class="row">
+                        <div class="col">
+                          <video width="300" controls>
+                            <source src="../media/DSC_0007.MOV" type="video/quicktime">
+                          </video>
+                        </div>
+                        <div class="col">
+                          <video width="300" controls>
+                            <source src="../media/DSC_0007.MOV" type="video/quicktime">
+                          </video>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                          <video width="300" controls>
+                            <source src="../media/DSC_0007.MOV" type="video/quicktime">
+                          </video>
+                        </div>
+                        </div>
+                      </div>
                   </div>
                   <div class="col-sm section-container-3-texto animate-section-3">
                     <a href="#"><img src="img/texto-3.png" alt=""></a>
@@ -148,13 +169,11 @@
                 </div>
               </div>
             </div>
-            <br><br><br><br>
             <hr>
-            <div class="section-container-4" >
-              <div class="section-container-4-texto animate-section-4">
+            <div class="section-container-4 animate-section-4" >
                 <img src="img/texto-4.png" alt="">
-              </div>
             </div>
+            <hr>
             <div class="container">
             <div class="card-deck mb-3 text-center">
               <div class="card mb-4 box-shadow">
@@ -169,7 +188,7 @@
                     <li>Email support</li>
                     <li>Help center access</li>
                   </ul>
-                  <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                  <button type="button" class="btn btn-lg btn-block btn-danger">Sign up for free</button>
                 </div>
               </div>
               <div class="card mb-4 box-shadow">
@@ -184,7 +203,7 @@
                     <li>Priority email support</li>
                     <li>Help center access</li>
                   </ul>
-                  <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                  <button type="button" class="btn btn-lg btn-block btn-danger">Get started</button>
                 </div>
               </div>
               <div class="card mb-4 box-shadow">
@@ -199,7 +218,7 @@
                     <li>Phone and email support</li>
                     <li>Help center access</li>
                   </ul>
-                  <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                  <button type="button" class="btn btn-lg btn-block btn-danger">Contact us</button>
                 </div>
               </div>
             </div>

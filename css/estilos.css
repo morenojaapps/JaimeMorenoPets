@@ -218,7 +218,7 @@ header nav ul li:hover span {
 /* Servicios*/
 /**********************************************************/
  section div.section-start-1 {
-  height: 750px;
+  height: 800px;
   background-image: url(../img/section-1.png);
 }
 
@@ -226,9 +226,10 @@ header nav ul li:hover span {
 section .section-container-1{
   background-image: url(../img/section-container-1.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 750px;
+  background-size: 100% 800px;
   border-bottom-right-radius: 20px;
-  height: 750px;
+  border-bottom-left-radius:  20px;
+  height: 800px;
   width: 80%;
   margin: 0px auto;
   padding-top: 120px;
@@ -253,18 +254,21 @@ section div.form-img img{
 }
 
 section div.section-start-2 {
- height: 600px;
+ height: 800px;
+ background-image: url(../img/fondo-section-2.jpg);
+ background-size: auto 800px;
+ background-repeat: no-repeat;
 }
 
 section div div.section-container-2 {
- height: 700px;
+ height: 800px;
  width: 80%;
- margin: 130px auto;
+ margin: auto;
 }
 section div div.section-container-2 img{
- height: 300px;
- margin-top: 100px;
- width: 80%;
+ height: 250px;
+ width: 50%;
+ margin-top: 250px;
 }
 
 section div div.section-container-2 img.rounded-circle{
@@ -289,9 +293,11 @@ section div div.section-container-2 img.rounded-circle:hover{
 
 section div.container-2-col-2{
   background-image: url(../img/section-1.png);
-  height: 600px;
+  height: 750px;
 }
-
+.content-gallery-2{
+  margin-top: 50px;
+}
 section .animate-section-2:hover {
 
 }
@@ -300,21 +306,85 @@ section div .col{
   margin-left: 100px;
 }
 
+hr {
+  margin: 0px;
+}
+section div.section-start-3 {
+  height: 750px;
+  background-image: url(../img/fondo-section-2.jpg);
+  background-size: auto 800px;
+  background-repeat: no-repeat;
+}
+
+section div div.section-container-3 img.rounded{
+ height: 200px;
+ width: 200px;
+ margin: 5px 5px;
+ filter: saturate(0.1);
+}
+
+section div div.section-container-3 img.rounded:hover{
+ height: 180px;
+ width: 180px;
+ margin: 10px 15px;
+ transform: scale(2);
+ transition: all 0.2s;
+ z-index: 1000;
+ -webkit-box-shadow: 25px 27px 16px -18px rgba(58, 153, 0, 0.56);
+ -moz-box-shadow: 25px 27px 16px -18px rgba(58, 153, 0, 0.56);
+ box-shadow: 25px 27px 16px -18px rgba(58, 153, 0, 0.56);
+  filter: saturate(1);
+}
+
+div.content-gallery-3{
+  margin-left: 300px;
+}
+
+div.section-container-3-video{
+  height: 800px;
+}
+
+div.section-container-3-video video {
+  margin-top: 40px;
+}
+
+div.section-container-3-video video:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+   z-index: 1000;
+  -webkit-box-shadow: 25px 27px 16px -18px rgba(4, 4, 4, 0.56);
+  -moz-box-shadow: 25px 27px 16px -18px rgba(4, 4, 4, 0.56);
+  box-shadow: 25px 27px 16px -18px rgba(4, 4, 4, 0.56);
+}
+
+
+div.section-container-3-texto{
+  height: 800px;
+}
 div.section-container-3-texto a img {
-  width: 60%;
-  height: 200px;
-  margin-left: 20%;
-  margin-top: 50px;
+
+  width: 50%;
+  height: 250px;
+  margin-left: 40%;
+  margin-top: 200px;
 }
 
 div.section-container-4{
   height: 300px;
 }
-div.section-container-4 div img{
-  margin-top: 50px;
+div.section-container-4 img{
+  margin-top: 60px;
   width: 30%;
   margin-left: 35%;
   height: 200px;
+}
+
+div.card-header {
+  background-color: rgba(150, 0, 0, 0.84);
+}
+
+div h4.my-0 {
+  color: white;
 }
 
 
@@ -461,6 +531,11 @@ body{
     height: 90%;
     padding-left: 15px;
     margin: 0 auto;
+  }
+
+  video {
+      width: 20%;
+      height: auto;
   }
 
 }
