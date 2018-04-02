@@ -10,7 +10,6 @@
   box-sizing: border-box;
 }
 /* Estilos de inicio.php */
-
 /* menu */
 /***********************************************************************/
 
@@ -266,9 +265,9 @@ section div div.section-container-2 {
  margin: auto;
 }
 section div div.section-container-2 img{
- height: 250px;
- width: 50%;
- margin-top: 250px;
+ height: 550px;
+ width: 75%;
+ margin-top: 100px;
 }
 
 section div div.section-container-2 img.rounded-circle{
@@ -363,10 +362,10 @@ div.section-container-3-texto{
 }
 div.section-container-3-texto a img {
 
-  width: 50%;
-  height: 250px;
-  margin-left: 40%;
-  margin-top: 200px;
+  width: 70%;
+  height: 450px;
+  margin-left: 20%;
+  margin-top: 100px;
 }
 
 div.section-container-4{
@@ -387,8 +386,87 @@ div h4.my-0 {
   color: white;
 }
 
+div.card:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
+  z-index: 1000;
+}
 
+section div.section-start-5 {
+ height: 800px;
+ background-image: url(../img/fondo-section-2.jpg);
+ background-size: auto 800px;
+ background-repeat: no-repeat;
+}
 
+section div div.section-container-5 a img{
+ height: 350px;
+ width: 60%;
+ margin-top: 250px;
+ margin-left: 200px;
+}
+
+section .content-gallery-5 {
+  width: 600px;
+  margin: auto;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+.row-user {
+  display: flex;
+}
+
+section div div div.container-5-col-2 .col-1-3 {
+  width: 66.67%;
+}
+
+section div div div.container-5-col-2 .col-2-3 {
+  width: 33.33%;
+}
+
+.big img{
+  height: 600px;
+}
+
+.small img{
+  height: 300px;
+}
+
+.row-user img:hover{
+  transform: scale(1.2);
+  transition: all 0.5s;
+   z-index: 1000;
+  -webkit-box-shadow: 25px 27px 16px -18px rgba(4, 4, 4, 0.85);
+  -moz-box-shadow: 25px 27px 16px -18px rgba(4, 4, 4, 0.85);
+  box-shadow: 25px 27px 16px -18px rgba(4, 4, 4, 0.85);
+  border-radius: 10px;
+  border: 5px inset white;
+}
+
+footer {
+  width: 70%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 80px;
+  margin: auto;
+  background-color: rgb(1, 2, 15);
+  margin-top: 2px;
+}
+
+footer div.Autors{
+  margin-left: 36%;
+}
+footer div.Autors:hover{
+  margin-left: 38%;
+  color: rgb(255, 255, 255);
+  transition: all 1s;
+}
+footer div.social-networks {
+  margin-left: 47%;
+}
+footer a:hover {
+    text-decoration: none;
+}
 
 
 /************************************************************************/

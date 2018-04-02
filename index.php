@@ -12,7 +12,7 @@
       <img class="logoImg" src="img/logo.png"/>
     </div>
     <div class="fdDiv" >
-      <a href="inicio.php"><img class="fdImg" src="img/fd.png"/></a>
+      <a href="home.php"><img class="fdImg" src="img/fd.png"/></a>
     </div>
   </body>
 </html>

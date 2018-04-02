@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/Gallery/fondo.jpg) !important;
+  background-size: 100%;
+}
+
+body div.title {
+  height: 150px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.69);
+  position: absolute;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+body div.title h1{
+  margin-left: 80px;
+  font-size: 80px;
+  margin-top: 50px;
+  color: rgb(254, 254, 254, 0.5);
+}
+
+body div.content-gallery {
+  position: absolute;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.69);
+  margin-top: 300px;
+  width: 100%;
+}
+
+body div.content-gallery div.gallery-image img {
+  height: 300px;
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 3px;
+}
+
+div.slide
+{
+  width: 40px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+div[class*=slide-item]{
+  background-color: black;
+  margin-left: 5px;
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+}
+
+div[class*=slide-item]:hover{
+  background-color: white;
+}
+
+@-webkit-keyframes transparencia{
+  0%{filter: opacity(0);}
+  25%{filter: opacity(.1);}
+  50%{filter: opacity(.2);}
+  100%{filter: opacity(.3);}
+}
