@@ -33,36 +33,7 @@ $("ul").click(function(parameter){
   parameter.stopPropagation();
 })
 
-$(".slide-item").click(function(){
-  max=$('#max-img').text();
-  if (inicio == 1) {
-    for (var i = inicio; i <= (inicio + 3) ; i++) {
-      document.getElementById('gallery-src-' + i).src = "img/Gallery/gallery-" + i + ".jpg";
-      $('.gallery-src-' + element).css('animation','transparencia 1s');
-      $('.gallery-src-' + element).css('transition','all 0.5s');
-      contador = i + 1;
-      }
-  }
-  else if (inicio <= max){
-    if((inicio2 + 3) > max){
-      inicio = inicio - 3;
-    }
-    var element = 1;
-  for (var i = inicio; i <= (inicio + 3) ; i++) {
-    document.getElementById('gallery-src-' + element).src = "img/Gallery/gallery-" + i + ".jpg";
-    $('.gallery-src-' + element).css('animation','transparencia 1s');
-    $('.gallery-src-' + element).css('transition','all 0.5s');
-    contador = i + 1;
-    element = element + 1;
-    }
-    element = 1;
-  } else {
-    inicio = 1;
-    contador = 1;
-  }
-  inicio = contador;
-  inicio2 = inicio;
-});
+
 
 
 

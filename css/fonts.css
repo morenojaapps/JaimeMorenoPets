@@ -51,6 +51,10 @@
 .icon-circle-down:before {
   content: "\ea43";
 }
+
+.icon-cancel-circle:before {
+  content: "\1f5f5";
+}
 .icon-google3:before {
   content: "\ea8a";
 }

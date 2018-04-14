@@ -111,24 +111,24 @@
                   <div class="content-gallery-2">
                     <div class="row">
                       <div class="col">
-                        <img src="img/imagen-gallery-1" alt="" class="rounded-circle">
+                        <img src="img/imagen-gallery-1.jpg" alt="" class="rounded-circle">
                       </div>
                       <div class="col">
-                        <img src="img/imagen-gallery-2" alt="" class="rounded-circle">
-                      </div>
-                      <div class="w-100"></div>
-                      <div class="col">
-                        <img src="img/imagen-gallery-3" alt="" class="rounded-circle">
-                      </div>
-                      <div class="col">
-                        <img src="img/imagen-gallery-4" alt="" class="rounded-circle">
+                        <img src="img/imagen-gallery-2.jpg" alt="" class="rounded-circle">
                       </div>
                       <div class="w-100"></div>
                       <div class="col">
-                        <img src="img/imagen-gallery-5" alt="" class="rounded-circle">
+                        <img src="img/imagen-gallery-3.jpg" alt="" class="rounded-circle">
                       </div>
                       <div class="col">
-                        <img src="img/imagen-gallery-6" alt="" class="rounded-circle">
+                        <img src="img/imagen-gallery-4.jpg" alt="" class="rounded-circle">
+                      </div>
+                      <div class="w-100"></div>
+                      <div class="col">
+                        <img src="img/imagen-gallery-5.jpg" alt="" class="rounded-circle">
+                      </div>
+                      <div class="col">
+                        <img src="img/imagen-gallery-6.jpg" alt="" class="rounded-circle">
                       </div>
                       </div>
                     </div>
@@ -239,15 +239,15 @@
                   <div class="row-user">
                     <div class="col-1-3">
                       <div class="big">
-                        <img src="img/imagen-gallery-1" alt="">
+                        <img src="img/imagen-gallery-1.jpg" alt="">
                       </div>
                     </div>
                     <div class="col-2-3">
                     <div class="small">
-                      <img src="img/imagen-gallery-2" alt="">
+                      <img src="img/imagen-gallery-2.jpg" alt="">
                     </div>
                     <div class="small">
-                      <img src="img/imagen-gallery-2" alt="">
+                      <img src="img/imagen-gallery-2.jpg" alt="">
                     </div>
                     </div>
                     </div>
