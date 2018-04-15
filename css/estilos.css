@@ -51,7 +51,7 @@ header nav div a img:hover{
 
 header nav{
   background: rgb(1, 2, 15);
-  z-index: 1000;
+  z-index: 2000;
   width: 100%;
   position: fixed;
   border-bottom-right-radius: 20px;
@@ -92,6 +92,23 @@ header nav ul li a {
 header nav ul li a:hover{
   text-decoration: none;
   color: rgb(255, 255, 255);
+  transition: all 0.8s;
+  background: rgb(17, 90, 128);
+  border-bottom: 2px solid rgb(241, 166, 39);
+}
+
+header nav ul li a.home {
+  color:rgb(92, 92, 97) !important;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  height: 50px;
+}
+
+header nav ul li a.home:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255) !important;
   transition: all 0.8s;
   background: rgb(17, 90, 128);
   border-bottom: 2px solid rgb(241, 166, 39);
@@ -599,7 +616,7 @@ footer a:hover {
 
   footer:hover {
     background-color: rgba(1, 2, 15,1);
-    transition: all 0.5s; 
+    transition: all 0.5s;
 
   }
 
@@ -642,6 +659,7 @@ body{
     display:inline-block;
     width: 100%;
     position: fixed;
+    z-index: 1000;
     top: 0px;
     background: rgb(1, 2, 15);
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);

@@ -13,33 +13,9 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   </head>
   <body class="fondoInicio">
-    <header>
-      <div class="menu-bar">
-        <a href="#" class="bt-menu" id="bt-menu"><span  class="icon-menu"></span></a><img src="img/huella.png" alt="">
-      </div>
-      <nav>
-        <div class="div-nav-logo">
-          <a href="index.php">
-            <img src="img/huella.png" alt="" >
-          </a>
-        </div>
-        <div class="div-nav-menu">
-          <ul>
-            <li class="submenu"><a href="home.php"><span class="icon-home"></span>Nuestro trabajo <span class="caret icon-circle-down"></span> </a>
-              <ul class="submenu-children">
-                <li><a href="gallery.php"><span class="icon-images"></span>Foto Galeria</a></li>
-                <li><a href="#"><span class="icon-video-camera"></span>Video Galeria</a></li>
-                <li><a href="#"><span class="icon-camera"></span>Sesiones personalizadas</a></li>
-                <li><a href="#"><span class="icon-images"></span>Eventos Caninos</a></li>
-              </ul>
-            </li>
-            <li><a href="#"><span class="icon-images"></span>Nuestros servicios</a></li>
-            <li><a href="#"><span class="icon-phone"></span>Contactame</a></li>
-            <li><a href="#"><span class="icon-user-check"></span>Suscribete</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <?php
+    include 'menu.php';
+    ?>
       <section>
         <div class="section-start-1">
           <div class="section-container-1" >

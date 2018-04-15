@@ -302,43 +302,4 @@ a.close-gallery span:hover
 a.close-gallery:hover{
   text-decoration: none;
 }
-
-
-
-
-
-  footer {
-    padding: 0;
-    position: fixed;
-    width: 85%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 30px;
-    margin: 0px auto;
-    background-color: rgb(1, 2, 15);
-    bottom:0;
-  }
-
-  footer div.Autors{
-    margin-left: 20px;
-    margin-bottom: 0px;
-    display: inline-block;
-  }
-
-  footer div.Autors p{
-    margin-bottom: 0px;
-  }
-
-  footer div.Autors:hover{
-    margin-left: 20px;
-    color: rgb(255, 255, 255);
-    transition: all 1s;
-  }
-  footer div.social-networks {
-    margin-top: 2px;
-    display: inline-block;
-  }
-  footer a:hover {
-      text-decoration: none;
-  }
 }
